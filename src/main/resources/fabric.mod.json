@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "the-hour",
+	"version": "${version}",
+	"name": "The Hour",
+	"description": "整点报时",
+	"authors": [
+		"flowerinsnow"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/the-hour/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"online.flowerinsnow.theour.TheHour"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.10.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.83.0"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
