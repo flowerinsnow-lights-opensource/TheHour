@@ -8,15 +8,17 @@
 		"flowerinsnow"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/flowerinsnowdh/TheHour",
+		"issues": "https://github.com/flowerinsnowdh/TheHour/issues"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/the-hour/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"client": [
 			"online.flowerinsnow.theour.TheHour"
+		],
+		"modmenu": [
+			"online.flowerinsnow.theour.entrypoint.TheHourModMenuAPIImpl"
 		]
 	},
 	"depends": {

@@ -1,0 +1,6 @@
+enable: true
+pre4: '应援团提醒您，整点报时'
+pre3: '3'
+pre2: '2'
+pre1: '1'
+on-hour: '现在时刻：%(moment)%(hour)'
